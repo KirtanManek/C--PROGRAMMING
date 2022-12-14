@@ -34,7 +34,7 @@ void main(){
 	
 	//sorting algorithm
 	for(i = 0; i < total; i++){
-		for(j = 0; j < total - 1; j++){
+		for(j = 0; j < total - i - 1; j++){
 			if(a[j] > a[j+1]){
 				temp = a[j];
 				a[j] = a[j+1];
