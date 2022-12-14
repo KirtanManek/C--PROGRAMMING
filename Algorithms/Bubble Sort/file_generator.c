@@ -1,8 +1,11 @@
 #include <stdio.h>
+//for mac users include stdlib.h file also
+//#include<stdlib.h>
 
 void main(){
 	long int i;
 	FILE *fb, *fw, *fa;
+	
 	//saving values of 1 to 100000 in 3 different form in different files.
 	fb = fopen("best.txt", "w");
 	fw = fopen("worst.txt", "w");
