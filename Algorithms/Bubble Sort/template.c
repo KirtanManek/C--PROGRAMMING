@@ -1,9 +1,7 @@
 #include<stdio.h>
 #include<time.h>
-//for mac users also include "stdlib.h" file
-//#include<stdlib.h>
 
-void main() {
+void main(){
 	long int *fp, *fout, a[100000], total, i, j, temp, choice;
 
 	//in which case you want to sort
@@ -41,17 +39,12 @@ void main() {
 	double cpu_time_used;
 	start = clock();
 
-	//sorting algorithm
-	for(i = 0; i < total; i++) {
-		for(j = 0; j < total - i - 1; j++) {
-			if(a[j] > a[j+1]) {
-				temp = a[j];
-				a[j] = a[j+1];
-				a[j+1] = temp;
-			}
-		}
-	}
-	
+
+
+	// Algorithm Logic
+
+
+
 	//Calculating the time at the end of algorithm 
 	end = clock();
 	cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
