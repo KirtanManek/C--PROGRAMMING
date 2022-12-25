@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<time.h>
+//For mac users also include stdlib.h file
 
 void main(){
 	long int *fp, *fout, a[100000], total, i, j, temp, choice;
